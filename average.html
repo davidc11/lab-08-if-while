@@ -1,13 +1,15 @@
 !DOCTYPE html>
 <html>
 <script>
-var num1 = prompt('Input a number:')
-var num2 = prompt('Input another number:')
-var num3 = prompt('Input another number:')
-var num4 = prompt('Input one more number:')
-var ans1 = num1 + num2 + num3 + num4
-var avg = ans1 / 4;
-console.log(avg);
+var ans = 0
+for(var i = 0; i <= 3; i++ ) {
+	var num = prompt("Number please...");
+  var num1 = parseInt(num)
+  ans = ans + num1
+}
+var avg = ans / 4;
+console.log(avg)
+
 </script>
 </body>
 <body>
